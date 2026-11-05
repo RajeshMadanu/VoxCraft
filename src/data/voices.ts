@@ -1,0 +1,58 @@
+import { VoiceItem } from '../types/voice';
+
+export const VOICES: VoiceItem[] = [
+  {
+    id: 'Kore',
+    name: 'Kore',
+    gender: 'Female',
+    vibe: 'Warm, articulate, balanced & confident',
+    tags: ['Narration', 'Explainer', 'Audiobook', 'App Assistant'],
+    description: 'Natural mid-tone voice with crystal-clear enunciation. Perfect for product guides, corporate explainers, and audiobooks.',
+    sampleText: 'Welcome to the project. Every detail has been engineered for clarity and precision.',
+  },
+  {
+    id: 'Puck',
+    name: 'Puck',
+    gender: 'Male',
+    vibe: 'Youthful, energetic, friendly & engaging',
+    tags: ['YouTube', 'Gaming', 'Podcast', 'Commercials'],
+    description: 'Dynamic and enthusiastic voice that grabs attention. Ideal for tech reviews, gaming content, and lively announcements.',
+    sampleText: 'Hey everyone, check this out! Today we are launching something completely new.',
+  },
+  {
+    id: 'Charon',
+    name: 'Charon',
+    gender: 'Male',
+    vibe: 'Deep, resonant, authoritative & calm',
+    tags: ['Documentary', 'Trailer', 'Deep Narration', 'Game NPC'],
+    description: 'Rich lower register with a commanding presence. Great for dramatic trailers, luxury branding, and immersive storytelling.',
+    sampleText: 'Beyond the horizon lies the quiet truth of what came before us.',
+  },
+  {
+    id: 'Fenrir',
+    name: 'Fenrir',
+    gender: 'Male',
+    vibe: 'Grounded, conversational, thoughtful & steady',
+    tags: ['Podcast Host', 'News', 'Tutorials', 'Interviews'],
+    description: 'Approachable, believable everyday voice with excellent natural cadence.',
+    sampleText: 'Let us take a step back and look at the real data driving this trend.',
+  },
+  {
+    id: 'Zephyr',
+    name: 'Zephyr',
+    gender: 'Female',
+    vibe: 'Gentle, soothing, airy & relaxed',
+    tags: ['Meditation', 'Wellness', 'Ambient', 'Storytelling'],
+    description: 'Calm, soft-spoken delivery that reduces stress and creates an intimate atmosphere.',
+    sampleText: 'Take a slow, deep breath in, and let your mind settle into the rhythm of the moment.',
+  },
+  {
+    id: 'Aoede',
+    name: 'Aoede',
+    gender: 'Female',
+    vibe: 'Expressive, theatrical, bright & nuanced',
+    tags: ['Animation', 'Fiction', 'Creative', 'Audio Drama'],
+    description: 'Highly expressive with melodic intonation and dynamic range for creative projects.',
+    sampleText: 'Could it really be? After all these years, the mystery finally begins to unravel.',
+  },
+];

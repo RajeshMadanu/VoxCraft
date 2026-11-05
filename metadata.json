@@ -1,0 +1,6 @@
+{
+  "name": "VoxCraft AI - Studio Voice Generator",
+  "description": "Generate lifelike AI voices, custom personas, dual-speaker dialogues, and developer-ready voiceovers for your projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
